@@ -1,0 +1,16 @@
+{
+    "name": "express-gateway-plugin-authz",
+    "version": "1.0.0",
+    "description": "Check if user is authorized and redirect to login page if needed",
+    "main": "manifest.js",
+    "scripts": {
+        "test": "jest --env node"
+    },
+    "devDependencies": {
+        "@types/json-schema": "^6.0.1",
+        "axios": "^0.18.0",
+        "express": "^4.16.3",
+        "express-gateway": "^1.8.2",
+        "jest": "^22.4.3"
+    }
+}

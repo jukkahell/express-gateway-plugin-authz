@@ -1,0 +1,8 @@
+db:
+  redis:
+    emulate: true
+    namespace: EG
+
+plugins:
+  express-gateway-plugin-authz:
+    package: '../manifest.js'
