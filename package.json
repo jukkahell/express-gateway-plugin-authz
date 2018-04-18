@@ -12,5 +12,8 @@
         "express": "^4.16.3",
         "express-gateway": "^1.8.2",
         "jest": "^22.4.3"
+    },
+    "dependencies": {
+        "express-gateway-plugin-session": "github:jukkahell/express-gateway-plugin-session"
     }
 }
