@@ -6,7 +6,6 @@ const plugin = {
     version: '1.0.0',
     policies: ['authz'],
     init: function(pluginContext) {
-        console.log(pluginContext);
         pluginContext.registerPolicy({
             name: 'authz',
             schema: {
